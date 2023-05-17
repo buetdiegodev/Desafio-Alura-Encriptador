@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/reset.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/index.js" defer></script>
+    <title>Encriptador Alura</title>
+  </head>
+  <body>
+    <main>
+      <img src="/imagenes/Logo.png" alt="logo-alura" />
+      <section class="texto-encriptar">
+        <textarea
+          class="ingresar-texto mostrar"
+          placeholder="Ingresa el texto aquí"
+          id="textarea1"
+        ></textarea>
+      </section>
+      <section class="texto-encriptado">
+        <div class="imagen-muneco mostrar" id="muneco">
+          <img src="/imagenes/Muñeco.png" alt="muñeco" />
+        </div>
+        <div class="texto-encriptado-caja mostrar" id="texto">
+          <h3>Ningún mensaje fue encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+        <textarea class="texto-codificado oculto" id="textarea2"></textarea>
+      </section>
+      <footer>
+        <p class="aclaracion">
+          <img
+            src="/imagenes/bi_exclamation-circle-fill.png "
+            class="exclamacion"
+          />
+          Letras minúsculas y sin acentos
+        </p>
+        <div class="btn">
+          <button class="btn-encriptar" id="btn-encriptar">Encriptar</button>
+          <button class="btn-desencriptar" id="btn-desencriptar">
+            Desencriptar
+          </button>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

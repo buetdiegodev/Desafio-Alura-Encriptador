@@ -1,0 +1,121 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #ced4da;
+  padding: 2rem;
+  position: relative;
+}
+.texto-encriptar {
+  margin: 3rem 10rem;
+  width: 35rem;
+  height: 27rem;
+  color: #0a3871;
+  padding: 2rem;
+  border-radius: 24px;
+}
+.ingresar-texto {
+  width: 100%;
+  height: 100%;
+  color: #0a3871;
+  background-color: #ced4da;
+  padding: 2rem;
+  border-radius: 24px;
+  border: none;
+  resize: none;
+}
+.texto-encriptado {
+  position: absolute;
+  right: 0;
+  top: 8rem;
+  background-color: #ffffff;
+  margin-right: 3rem;
+  border-radius: 1rem;
+  width: 18rem;
+  height: 35rem;
+  padding: 0 2rem;
+}
+footer {
+  margin: 0rem 10rem;
+  width: 35rem;
+  height: 5rem;
+}
+
+.aclaracion {
+  padding-left: 3rem;
+  color: #495057;
+  font-size: 0.7rem;
+  margin-bottom: 0.3rem;
+}
+.aclaracion .exclamacion {
+  margin-right: 0.1rem;
+  margin-bottom: -0.2rem;
+  text-align: center;
+  align-items: center;
+}
+.btn {
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.btn-encriptar {
+  width: 14rem;
+  height: 3.1rem;
+  color: #d8dfe8;
+  font-size: 1rem;
+  border: #00000040;
+  background: #0a3871;
+  border-radius: 24px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.btn-desencriptar {
+  width: 14rem;
+  height: 3.1rem;
+  color: #0a3871;
+  font-size: 1rem;
+  border: #0a3871 1px solid;
+  background: #d8dfe8;
+  border-radius: 24px;
+
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.imagen-muneco img {
+  margin-top: 10rem;
+  width: 16rem;
+  height: 14rem;
+}
+.texto-encriptado-caja {
+  color: #495057;
+  text-align: center;
+}
+.texto-encriptado-caja h3 {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.texto-codificado {
+  margin-top: 2rem;
+  width: 99%;
+  height: 90%;
+  padding: 0.3rem;
+  color: #0a3871;
+  background-color: #ffffff;
+
+  border-radius: 24px;
+  border: none;
+  resize: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+.oculto {
+  display: none;
+}
